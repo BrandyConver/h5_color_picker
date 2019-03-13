@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div>输入框颜色选择器<input type="text" id="inputpicker"></div>
+  <div>button颜色选择器<button>button</button></div>
+  <div>div颜色选择器<div id="divpicker" style="width:100px;height:100px;border:1px solid #000"></div></div>
+
+
+  <script src="./src/index.js"></script>
+  <script>
+    //绑定对象
+    atestfun({
+      ele: '#divpicker'
+    })
+  </script>
+</body>
+</html>

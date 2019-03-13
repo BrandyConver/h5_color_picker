@@ -1,0 +1,15 @@
+{
+  "name": "color_picker",
+  "version": "1.0.0",
+  "description": "html5 colorpicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "colorpicker",
+    "canvas"
+  ],
+  "author": "",
+  "license": "ISC"
+}
