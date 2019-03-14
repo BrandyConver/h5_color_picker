@@ -16,11 +16,14 @@ var colorPicker = function (param) {
 
   canvas1.addEventListener('click', function () {
     let ctxcl = canvas1.getContext('2d');
+    let ctxln = canvas2.getContext('2d');
+    // 获取点击位置 getImg 
     event.stopPropagation();
   });
 
   canvas2.addEventListener('click', function () {
     let ctxln = canvas2.getContext('2d');
+    // 获取点击位置 getImg 
     event.stopPropagation();
   });
 
