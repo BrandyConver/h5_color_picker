@@ -7,6 +7,8 @@
   <title>Document</title>
   <style>
     #divpicker{
+      position: relative;
+      top: 200px;
       width: 100px;
       height: 20px;
       border:1px solid #999;
@@ -17,14 +19,13 @@
 
 <body>
   <form action="">
-      <label for="inputpicker"><div>输入框颜色选择器<input type="text" id="inputpicker"></div></label>
-      <div>button颜色选择器<button id="buttonpicker">button</button></div>
-      <div>div颜色选择器<div id="divpicker" ></div></div>
+    <label for="inputpicker"><div>输入框颜色选择器<input type="text" id="inputpicker" readonly></div></label>
+    <div>div颜色选择器<div id="divpicker" ></div></div>
   </form>
   
 
 
-  <script src = "./src/index.js">
+  <script src = "./index.js">
   </script>
   <script>
     colorPicker({
@@ -32,12 +33,8 @@
       height: 100
     })
     colorPicker({
-      ele: '#buttonpicker',
-      height: 150
-    })
-    colorPicker({
       ele: '#divpicker',
-      height: 200
+      height: 150
     })
   </script>
 </body>
